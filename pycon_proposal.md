@@ -1,6 +1,6 @@
-====================
-Python Talk Proposal
-====================
+===================
+Pycon Talk Proposal
+===================
 
 Title
 -----
@@ -104,7 +104,26 @@ Outline
 
 Additional Notes
 ----------------
+* Based on advice linked from the [proposing a talk page](https://us.pycon.org/2016/speaking/talks/),
+  I have narrowed the scope of this proposal to focus on our use of WSGI. However, if this focus
+  seems too narrow, I could adjust the talk to address more broadly how Adtran has used python in
+  our microservices architecture including deployment, orchestration, and testing.
+* Slides for this talk will be written in html/css/javascript using [impress.js](https://github.com/impress/impress.js).
+  You can see the title and intro slides [on github](http://nathanalderson.github.io/wsgi-talk). The
+  slides will be served locally for the talk to avoid possible network issues.
+* I have spoken many times for large groups internally at my company, and have presented in the past
+  at a meeting of the [Huntsville Python User Group](http://www.meetup.com/hsv-py/), but this would
+  be my first time speaking at a large conference such as Pycon. If accepted, I will likely present
+  the talk at the Huntsville Python User Group prior to Pycon.
+* Slides for my presentation at the Huntsville Python User Group can be found (on
+  Github)[http://nathanalderson.github.io/pytest-talk].  That talk explored how the pytest library
+  generates its awesome failure reports by rewriting your code.
+* The outline includes a bullet that reads "Code snippets (possibly demo?)". At this point I could
+  either show slides with code snippets to show what a python-based microservice looks like using
+  our WSGI server (spoiler: it's just regular bottle code), or I could do a very quick (~2 minute)
+  live demo by writing a simple "hello world"-style microservice.  I may prepare the demo but have
+  the code snippet slides available as a fallback.  Any feedback on this is welcome.
 
 Additional Requirements
 -----------------------
-Just a video link for my laptop (HDMI or VGA preferred) and a single microphone.
+Just a video link for my laptop (HDMI or VGA preferred), a podium, and a single microphone.
